@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>eCourt Information</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+</head>
+<body>
+    <script src="https://www.gstatic.com/dialogflow-console/fast/messenger/bootstrap.js?v=1"></script>
+                <df-messenger
+                  intent="WELCOME"
+                  chat-title="Justice_Bot"
+                  agent-id="58b448ef-f998-453f-a611-efd92c003704"
+                  language-code="en"
+                ></df-messenger>
+    <header>
+        <div class="container">
+            <div class="logo">
+                <h1>eCourt Information</h1>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="supreme-court.html">Supreme Court</a></li>
+                    <li><a href="high-court.html">High Court</a></li>
+                    <li><a href="district-court.html">District Court</a></li>
+                    <li><a href="login.html">Login</a></li>
+
+                    
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <div class="button-container">
+        <a href="#" class="btn">Case Status</a>
+        <a href="#" class="btn">E-Filing</a>
+        <a href="#" class="btn">Judgments</a>
+    </div>
+    
+    <main>
+        <div class="container">
+            <section class="welcome">
+                <h2>Welcome to eCourt</h2>
+                <p>The Constitution of India, adopted on January 26, 1950, serves as the supreme law of the country, establishing the framework for the governance of the nation. It reflects the principles of justice, liberty, equality, and fraternity, ensuring fundamental rights and duties for all citizens. The Constitution is a comprehensive document, comprising 448 articles and 12 schedules, which provide a detailed outline of the political, legal, and social structure of India. It embodies the aspirations of the people, drawing from various sources, including the Government of India Act of 1935, the Irish Constitution, and the Universal Declaration of Human Rights.<br>
+
+                    <br>One of the defining features of the Indian Constitution is its commitment to democracy and the rule of law. It establishes India as a sovereign, socialist, secular, and democratic republic, with a parliamentary system of governance. The Constitution lays down the separation of powers among the three branches of government: the Executive, the Legislature, and the Judiciary. This system is designed to maintain checks and balances, preventing any one branch from overstepping its authority. Additionally, it guarantees fundamental rights to all citizens, such as the right to equality, freedom of speech, and protection against discrimination, which are crucial for the functioning of a vibrant democracy.<br>
+                    
+                    <br>The Constitution also emphasizes the importance of social justice and the protection of marginalized communities. It includes provisions for affirmative action, aimed at uplifting Scheduled Castes, Scheduled Tribes, and other backward classes. Through various amendments and interpretations, the Constitution has evolved to address contemporary issues and challenges, ensuring that it remains relevant in a rapidly changing society. Overall, the Constitution of India stands as a testament to the country's commitment to democratic values and the protection of individual rights, shaping the nation’s identity and governance for over seven decades.s.</p>
+            </section>
+
+            <section class="news-ticker">
+                <marquee behavior="scroll" direction="left">Supreme Court restrains T.N. Police from taking ‘further action’ against Isha Foundation</marquee>
+            </section>
+
+            <section class="images">
+                <img src="court.jpg" alt="Court">
+                <img src="law.jpg" alt="Law">
+                <img src="judge.jpg" alt="Judgement">
+            </section>
+        </div>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 eCourt Information. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
